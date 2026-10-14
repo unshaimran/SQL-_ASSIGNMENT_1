@@ -28,7 +28,7 @@ ORDER BY list_price DESC;
 
 SELECT product_name, list_price 
 FROM [production].[products]
-where list_price BETWEEN $200 AND $500
+where list_price BETWEEN 200 AND 500
 ORDER BY list_price ASC;
 
 --Q6: Find all customers whose last name starts with the letter 'S'.
@@ -61,13 +61,13 @@ WHERE shipped_date IS  NULL;
 SELECT 
 product_name,
 brand_ID,
-list_price * 0.85 AS [Sales_Price]
+list_price * 0.85 AS [Sale_Price]
 FROM [production].[products]
 
 -- Q10: Get a unique list of all cities where BikeStores customers live,
 -- sorted alphabetically.
 
-SELECT city
+SELECT DISTINCT city
 FROM [sales].[customers]
 ORDER BY city ASC;
 
