@@ -1,20 +1,30 @@
-## SQL ASSIGNMENT
+# SQL Homework
 
-NAME : Unsha Siddiqui
-ROLL NO: 913440
-DATE: 14 October 2026
-COURSE : Multi Cloud Data Engineering
-BATCH: 7
-## ABOUT
+**Name:** Unsha Siddiqui  
+**Roll Number:** 913440  
+**Date:** October 14, 2026  
+**Batch:** 7  
+**Course:** Multi Cloud Data Engineering
 
-This repository covers my First Assignment of SQL.....
+---
 
-## TOPICS I COVERED
-SELECT
-FROM
-WHERE
-UNION
-UNION ALL
-AND
-OR
-EXCEPT
+## About
+
+This repository contains my SQL homework queries using the BikeStores database.
+
+## Topics Covered
+
+- **SELECT and FROM**
+- **WHERE, AND, OR**
+- **ORDER BY and TOP**
+- **BETWEEN and LIKE**
+- **DISTINCT**
+- **CONCAT**
+- **UNION and UNION ALL**
+- **EXCEPT**
+- **Calculated Columns**
+
+## Tools Used
+
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
